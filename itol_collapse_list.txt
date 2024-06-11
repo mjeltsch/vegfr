@@ -1,0 +1,28 @@
+COLLAPSE
+#use this template to automatically collapse clades. All IDs listed below DATA line will be collapsed.
+#lines starting with a hash are comments and ignored during parsing
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+DATA
+#NODE_ID
+#Examples
+
+flt4_African_ostrich_ENSSCUT00000005192.1|flt4_chicken_A0A8V0YXZ9
+flt4_mouse_P35917|flt4_human_P35916
+flt4_Xenopus_tropicalis_A0A8J0SJK9|flt4_Gaboon_cecilian_A0A6P8PG27
+
+flt1_mouse_P35969|flt1_human_P17948
+flt1_chicken_Q8QHL3|flt1_African_ostrich_ENSSCUT00000026919.1
+
+kdrl_Xenopus_tropicalis_A0A803JFF6|kdrl_Gaboon_cecilian_XP_033800738.1
+kdrl_African_ostrich_XP_009683783.1|kdrl_chicken_XP_040526463.1
+
+kdr_African_ostrich_ENSSCUT00000003177.1|kdr_chicken_F1NW21
+kdr_mouse_P35918|kdr_human_P35968
+kdr_Gaboon_cecilian_A0A6P8QV02|kdr_Xenopus_tropicalis_A0A6I8SF46
+
+
+
